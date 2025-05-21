@@ -1,0 +1,4 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2019-12-31,bearish,No,,6 months,Close price falls below 20-day moving average and MACD histogram turns negative
+2023-12-31,bearish,No,,12 months,"Sell when the stock price falls below 20% of the highest price in the past 12 months, or when the ROE falls below 10% for two consecutive quarters."
+2023-12-29,bearish,No,,24 months,Sell if the price drops below 800 NTD or if ROE falls below 10% for two consecutive quarters.

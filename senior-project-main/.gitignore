@@ -1,0 +1,5 @@
+# 這邊放不要被git推送的文件
+# Ignore settings.py file
+StockNewsCrawling/settings.py
+.env
+venv/

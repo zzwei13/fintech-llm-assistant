@@ -1,0 +1,4 @@
+llama_try ->透過llama執行分析prompt，預測時間為現在
+llama_try_2022 ->用來做回測的版本，預測時間可自由調整，預設2022年
+traing_data ->需要把這個資料夾下的基本面資料放入主程式目錄中，讓主程式可以讀取
+enhance_prompt.py ->作用是自動變異以提供更好的prompt，但未加入繁殖優化的概念

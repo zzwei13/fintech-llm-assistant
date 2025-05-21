@@ -1,0 +1,5 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2019-12-31,bearish,No,,,
+2019-12-31,bullish,Yes,363 NTD,18 months,"Set a stop-loss order at 270 NTD, and re-evaluate the position if the price falls below this level or if ROE and ROA continue to decline for two consecutive quarters."
+2020-12-31,bullish,Yes,594 NTD,18 months,"Trailing stop loss at 10% below the highest price reached since purchase, or if ROE or ROA declines by more than 20% in a single quarter."
+2021-12-31,bullish,Yes,735 NTD,18 months,Trailing stop loss with 10% maximum loss and 5% trailing threshold
