@@ -70,6 +70,7 @@ TOGETHER_API_KEY=你的 TOGETHER API 金鑰
 SECRET_KEY=Flask 的 secret key
 SUPABASE_URL=你的 Supabase 專案網址
 SUPABASE_KEY=你的 Supabase 金鑰
+```
 
 ## 執行說明
 
