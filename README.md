@@ -82,6 +82,7 @@ pip install -r requirements.txt
 
 # 執行應用程式
 python main.py
+```
 
-
-**目前不開放連接SUPABASE資料庫，因此以DEMO影片為成果參考。
+## 其他說明
+- 目前不開放連接SUPABASE資料庫，因此以DEMO影片為成果參考。
