@@ -1,0 +1,2 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2024-11-10,bullish,Yes,38,18 months,"Trailing stop loss with a 10% threshold, and sell if the stock price falls below the 50-day moving average or if ROE/ROA decline significantly"

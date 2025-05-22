@@ -1,0 +1,15 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2024-11-11,bullish,Yes,1330 NTD,18 months,"Trailing stop loss strategy with a 10% stop loss limit, triggered when the stock price falls below the 50-day moving average or when ROE drops below 20%."
+2024-11-11,bullish,Yes,"1,394 NTD",18 months,"Trailing stop loss with 10% threshold and 5% increment, sell order triggered if price falls below 976 NTD"
+2024-11-14,bullish,Yes,"1,250 NTD",18 months,"Trailing stop loss with 10% maximum loss from peak price, or a drop below 50-day moving average."
+2024-11-14,bullish,Yes,1285 NTD,18 months,"Trailing stop loss at 10% below the highest price reached after purchase, with a minimum holding period of 12 months"
+<<<<<<< HEAD
+2024-11-16,bullish,Yes,"1,350 NTD",18 months,"Trailing stop loss, 10% below the recent high price, or if ROE drops below 20%"
+2024-11-18,bullish,Yes,1280 NTD,18 months,"Trailing stop loss, 10% below the highest price since the investment, or when ROE drops below 20% for two consecutive quarters."
+=======
+2024-11-15,bullish,Yes,1280 NTD,18 months,Trailing stop loss with a 10% threshold and a 5% incremental adjustment
+2024-11-18,bullish,Yes,1250 NTD,18 months,"Set a stop loss at 920 NTD, if the stock price falls below this level, sell immediately. Criteria for triggering a sell order: if the stock price falls by more than 10% within a 3-month period, or if the company's quarterly earnings report shows a significant decline in revenue or profit."
+>>>>>>> 80f6d297d4b4c4a1b8c542602bb085006cd9b9e7
+2024-11-18,bullish,Yes,1300 NTD,18 months,"Trailing stop loss at 10% below the highest price since purchase, or if the stock price falls below the 50-day moving average by more than 5%."
+2024-11-18,bullish,Yes,1300 NTD,18 months,"Set a trailing stop loss at 10% below the highest price reached since purchase, or if the stock price falls below the 50-day moving average."
+2024-11-19,bullish,Yes,1280 NTD,18 months,"Trailing stop loss, sell if price falls below 936 NTD (10% below current price) or if the stock experiences a 15% decline within a 3-month period."

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>漲LLa!嗎?</title>
+
+    <!-- 網站圖標 -->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='dist/assets/favicon.ico') }}" />
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"
+        type="text/css" />
+
+    <!-- Google 字體 -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+
+    <!-- 主題樣式表，包含 Bootstrap 核心樣式 -->
+    <link href="{{ url_for('static', filename='dist/css/styles.css') }}" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+            <!-- 網站名稱 -->
+            <a class="navbar-brand" href="#page1">漲LLa!Ma?</a>
+
+            <a href="#page1">首頁</a>
+            <a href="#page2">查詢</a>
+            <a href="#page4">模型預測</a>
+            <a href="#page5">市場情緒</a>
+            <a href="#page6">重要新聞</a>
+
+            <!-- 註冊按鈕 
+            <a class="btn btn-primary" href="#signup">Sign Up</a>-->
+        </div>
+    </nav>
+
+    <!-- 第一個區塊 -->
+    <div id="page1" class="section-first"
+        style="background-image: url('{{ url_for('static', filename='media/back3.jpg') }}');">
+        <!-- 頁面標題 -->
+        <h1 class="first-topic underline">歡迎來到『漲LLa!Ma?』</h1>
+    </div>
+
+    <!--第二個區塊 -->
+    <header class="masthead" id="page2">
+        <div class="row justify-content-center" id="search">
+            <div class="col-xl-6">
+                <div class="text-center text-white">
+
+                    <!-- 影片 -->
+                    <div class="video-container">
+                        <video id="video">
+                            <source src="{{ url_for('static', filename='media/run2.mp4') }}" type="video/mp4">
+                            您的瀏覽器不支援影片播放。
+                        </video>
+                    </div>
+
+                    <!-- 股票查詢表單 -->
+                    <form class="form-subscribe" id="prediction-form" action="/predict" method="post">
+                        <!-- 股票代碼輸入框 -->
+                        <div class="row">
+                            <div class="col">
+                                <input class="form-control form-control-lg" id="stock_data" name="stock_data"
+                                    type="text" placeholder="請輸入股票代碼或名稱！" required />
+                                <div class="invalid-feedback text-white">Stock ID is required.</div>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-primary btn-lg" type="submit" onclick="playVideo();clearContent()">查詢</button>
+                            </div>
+                        </div>
+
+                        <!-- 成功與錯誤信息顯示區 -->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                            </div>
+                        </div>
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Error sending message!</div>
+                        </div>
+
+                        <!-- 加載狀態 -->
+                        <div id="loadingMessage" style="display:none; color: white;"></div>
+                        <!-- 跑馬燈區域 -->
+                        <div id="marquee"></div>
+                    </form>
+                    <!-- 結果顯示區 -->
+                    <div id="result"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 第4個區塊 -->
+    <section class="features-icons bg-light text-start" id="page4">
+        <div class="features-icons-item d-flex align-items-center move-box">
+            <div class="topic">
+                <h3 class="underline">模型預測</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="section">
+                <div class="col-12 mb-4">
+                    <div id="dynamic-result-container">
+                        <div id="dynamic-result" style="font-size: 20px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第5個區塊 -->
+    <section class="features-icons bg-light text-start" id="page5">
+        <div class="features-icons-item d-flex align-items-center move-box">
+            <div class="topic">
+                <h3 class="underline">市場情緒</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="section">
+                <div class="col-12 mb-4">
+                    <div id="dynamic-result-container">
+                        <div id="dynamic-sentiment-mean" class="content-block" style="font-size: 20px;"></div>
+                        <div id="dynamic-chart" class="content-block"></div>
+                        <div id="dynamic-container"></div>
+                        <div id="dynamic-geminiResponse" class="content-block"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第6個區塊 -->
+    <section class="features-icons bg-light text-start" id="page6">
+        <div class="features-icons-item d-flex align-items-center move-box">
+            <div class="topic">
+                <h3 class="underline">重要新聞</h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="section">
+                <div class="col-12 mb-4">
+                    <div id="dynamic-result-container">
+                        <div id="news-results" class="d-flex flex-wrap justify-content-between"
+                            style="font-size: 20px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 頁腳 -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <!-- 左側資訊 -->
+                <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#!">About</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Contact</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2023. All Rights Reserved.</p>
+                </div>
+
+                <!-- 右側社交媒體 -->
+                <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item me-4">
+                            <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                        </li>
+                        <li class="list-inline-item me-4">
+                            <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 核心 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- 主題 JS 文件 -->
+    <script src="{{ url_for('static', filename='dist/js/scripts.js') }}"></script>
+    <!-- SB Forms JS 用於表單提交 -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+</body>
+
+</html>

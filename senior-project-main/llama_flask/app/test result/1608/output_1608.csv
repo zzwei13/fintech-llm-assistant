@@ -1,0 +1,2 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2024-11-10,bullish,Yes,40,18 months,Set a stop loss at 26.6 (10% below the current price) and adjust it to the moving average of the recent 6 months if the price increases by 15%.

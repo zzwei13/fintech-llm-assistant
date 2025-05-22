@@ -1,0 +1,3 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2024-11-12,bullish,Yes,43 NTD,18 months,Set stop loss at 10% below the purchase price (30.51 NTD) and adjust the stop loss to break-even point when the stock price reaches 40 NTD.
+2024-11-12,bullish,Yes,43 NTD,18 months,"Trailing stop loss with a 10% drop from the highest price since buying, or if ROE drops below 8% for two consecutive quarters."

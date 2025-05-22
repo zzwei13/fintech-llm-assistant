@@ -1,0 +1,20 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2024-11-12,bullish,Yes,40 NTD,18 months,Set a stop loss at 29.65 NTD (10% below the current price) and adjust it to the break-even point when the stock price increases by 10%.
+2024-11-14,bullish,Yes,41 NTD,18 months,"Set stop loss at 29.43 NTD (10% below current price), review and adjust every 3 months based on company performance and market trends."
+2024-11-16,bullish,Yes,40,18 months,"Trailing stop loss, 10% below the recent high price"
+2024-11-18,bullish,Yes,43 NTD,18 months,"Set stop loss at 29.5 NTD, trigger sell order if price falls below this level or if ROE drops below 8% in the next quarterly report."
+2024-11-18,bullish,Yes,40 NTD,18 months,"Trailing stop loss with 10% threshold, sell if price falls below 29.52 NTD or if ROE and ROA decline for two consecutive quarters"
+2024-11-18,bullish,Yes,43 NTD,18 months,Set stop loss at 29.52 NTD (10% below current price) and adjust as needed based on market trends and company performance.
+2024-11-19,bullish,Yes,43 NTD,18 months,"Trailing stop loss at 10% below the recent high, or sell if the stock price falls below the 50-day moving average."
+2024-11-19,bullish,Yes,43 NTD,18 months,Trailing stop loss with a 10% threshold and a 5% trailing interval
+2024-11-19,bullish,Yes,43 NTD,18 months,Trailing stop loss at 10% below the recent high
+2024-11-19,bullish,Yes,41 NTD,18 months,"Trailing stop loss with a 10% threshold, triggered by a 5% decline in BPS or a 10% decline in EPS"
+2024-11-19,bullish,Yes,41 NTD,18 months,"Trailing stop loss with a 10% threshold, or a drop below the 200-day moving average"
+2024-11-19,bullish,Yes,41,18 months,"Set stop loss at 30.5 (10% below current price) and adjust as the stock price increases, maintaining a 10% trailing stop loss."
+2024-11-20,bullish,Yes,40 NTD,18 months,Trailing stop loss strategy with a 10% stop loss threshold and a 5% trailing stop increment
+2024-11-20,bullish,Yes,40 NTD,18 months,"Set stop loss at 30 NTD, criteria include: (1) 10% decline in stock price, or (2) significant decline in ROE or EPS in the next quarterly report."
+2024-11-20,bullish,Yes,41 NTD,18 months,"Trailing stop loss with a 10% threshold, triggered by a 5-day moving average crossing below the 20-day moving average."
+2024-11-20,bullish,Yes,41,18 months,"Trailing stop loss strategy with a 10% stop loss limit, review and adjust every 3 months"
+2024-11-21,bullish,Yes,41 NTD,18 months,"Trailing stop loss strategy with a 10% maximum loss threshold, sell if the stock price falls below the 50-day moving average or if ROE drops below 8%"
+2024-11-21,bullish,Yes,43 NTD,18 months,"Trailing stop loss with 8% threshold, sell order triggered if price falls below 30.9 NTD"
+2024-11-21,bullish,Yes,42 NTD,18 months,Set stop loss at 30.42 NTD (10% below current price) and adjust as the stock price moves upwards to maintain the 10% loss threshold.

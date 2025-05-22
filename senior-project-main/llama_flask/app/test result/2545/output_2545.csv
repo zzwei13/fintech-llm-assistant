@@ -1,0 +1,5 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2024-11-19,bullish,Yes,93 NTD,18 months,Trailing stop loss with a 10% threshold and 5% incremental adjustment
+2024-11-19,bullish,Yes,93 NTD,18 months,"Set stop loss at 63.81 NTD (10% below the current price), and adjust the stop loss to break-even point when the stock price reaches 80 NTD."
+2024-11-19,bullish,Yes,85 NTD,18 months,Set stop loss at 63.81 NTD (10% below current price) and adjust as the stock price moves. Criteria: If the stock price falls below the 50-day moving average or if ROE/ROA shows significant decline.
+2024-11-19,bullish,Yes,93 NTD,18 months,Trailing stop loss with a 10% threshold and a 5% adjustment

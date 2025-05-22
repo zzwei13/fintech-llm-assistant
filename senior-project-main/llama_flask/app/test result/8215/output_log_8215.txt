@@ -1,0 +1,26 @@
+no.0 === 2024-11-12 13:48:00.113238 ===
+1. Is the next one year bullish or bearish?: bullish
+2. Based on the current price, is it recommended to buy?: Yes
+3. Based on the current price, assuming the maximum loss of the stop loss strategy is 10%, what is the recommended selling price?: 43 NTD
+4. What is the recommended holding period for this investment?: 18 months
+5. Suggested stop loss strategy? What are your criteria for triggering a sell order?: Set stop loss at 10% below the purchase price (30.51 NTD) and adjust the stop loss to break-even point when the stock price reaches 40 NTD.
+6. Please give specific reasons why you think it is bullish or bearish.: 
+- Increasing book value per share over the past 4 years
+- High ROE in 2021 and 2022
+- Decreasing debt-to-asset ratio over the past 4 years
+- Recent decline in stock price may be an opportunity for a rebound
+- Industry trends in computer and peripheral equipment manufacturing, chemical materials, and medical products may experience growth due to technological advancements and increasing demand.
+
+no.0 === 2024-11-12 13:50:58.735363 ===
+1. Is the next one year bullish or bearish?: bullish
+2. Based on the current price, is it recommended to buy?: Yes
+3. Based on the current price, assuming the maximum loss of the stop loss strategy is 10%, what is the recommended selling price?: 43 NTD
+4. What is the recommended holding period for this investment?: 18 months
+5. Suggested stop loss strategy? What are your criteria for triggering a sell order?: Trailing stop loss with a 10% drop from the highest price since buying, or if ROE drops below 8% for two consecutive quarters.
+6. Please give specific reasons why you think it is bullish or bearish.: 
+    * Increasing book value per share over the past 4 years
+    * Relatively stable capital over the past 4 years
+    * High gross profit margin and operating margin in recent years
+    * Historical price trends show a general upward trend despite fluctuations
+    * Moderate optimism based on positive trends in the electronics and medical products manufacturing industries
+

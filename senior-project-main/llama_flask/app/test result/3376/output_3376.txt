@@ -1,0 +1,7 @@
+1. Is the next one year bullish or bearish?: bullish
+2. Based on the current price, is it recommended to buy?: Yes
+3. Based on the current price, assuming the maximum loss of the stop loss strategy is 10%, what is the recommended selling price?: 230 NTD
+4. What is the recommended holding period for this investment?: 18 months
+5. Suggested stop loss strategy? What are your criteria for triggering a sell order?: Set a stop-loss order at 158.85 NTD (10% below the current price) and adjust it to the break-even point when the stock price reaches 195 NTD.
+6. Please give specific reasons why you think it is bullish or bearish.: 
+The company has a stable debt-to-asset ratio, and the industry's demand for precision metal stamping and precision spring products is expected to grow. The company's book value per share has been stable, and the return on equity has shown signs of improvement. The current price-to-earnings ratio is relatively high, but the company's earnings per share are expected to recover. The stock price has shown a strong upward trend in the past year, and the momentum is expected to continue.

@@ -1,0 +1,4 @@
+Date,Bullish/Bearish,Recommend buy or not,Recommended selling price,Recommended holding period,Stop-loss strategy
+2024-11-19,bullish,Yes,83 NTD,18 months,"Trailing stop loss strategy with a 10% maximum loss threshold, triggered by a 5% decline in stock price within a 3-month period or a 10% decline in ROE/ROA within a 6-month period."
+2024-11-19,bullish,Yes,82 NTD,18 months,"Trailing stop loss with a 10% threshold, and re-evaluate every 6 months or when significant market trends change."
+2024-11-19,bullish,Yes,83 NTD,18 months,"Trailing stop loss at 10% below the highest price reached since buying, or if ROE or ROA declines significantly (by 20% or more) in the next quarterly report."

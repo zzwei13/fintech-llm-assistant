@@ -1,0 +1,12 @@
+1. Is the next one year bullish or bearish?: bullish
+2. Based on the current price, is it recommended to buy?: Yes
+3. Based on the current price, assuming the maximum loss of the stop loss strategy is 10%, what is the recommended selling price?: 63 NTD
+4. What is the recommended holding period for this investment?: 18 months
+5. Suggested stop loss strategy? What are your criteria for triggering a sell order?: Trailing stop loss, sell when price falls 10% below the highest price reached after purchase.
+6. Please give specific reasons why you think it is bullish or bearish.: 
+- Increasing BPS and stable capital over the past 4 years indicate a solid financial foundation.
+- Historical ROE and ROA show potential for growth, despite fluctuations.
+- PERatio has been relatively stable, and recent increases in EPS suggest potential for long-term growth.
+- Gross profit margin and OPM have been stable, indicating efficient operations.
+- DBR has been stable, indicating manageable debt levels.
+- Recent price movements and historical data suggest a potential upward trend.

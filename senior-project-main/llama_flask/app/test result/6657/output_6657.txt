@@ -1,0 +1,12 @@
+1. Is the next one year bullish or bearish?: bearish
+2. Based on the current price, is it recommended to buy?: No
+3. (skipped)
+4. (skipped)
+5. (skipped)
+6. Please give specific reasons why you think it is bullish or bearish.: 
+   - Negative ROE and ROA over the past 5 years
+   - Unstable and decreasing BPS
+   - High and increasing DBR
+   - Unstable and decreasing EPS
+   - No clear growth trend in the industry
+   - Company's operating margin is negative and decreasing
