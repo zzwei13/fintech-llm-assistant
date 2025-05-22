@@ -72,28 +72,8 @@ SUPABASE_URL=你的 Supabase 專案網址
 SUPABASE_KEY=你的 Supabase 金鑰
 
 ## 執行說明
+
 ```markdown
-cd senior-project-main/llama_flask
-
-# 安裝依賴
-pip install -r requirements.txt
-
-# 執行應用程式
-python main.py
-
-
-**目前不開放連接SUPABASE資料庫，因此以DEMO影片為成果參考。
-
----
-
-## 🔧 環境變數設定
-
-請在專案根目錄建立 `.env` 檔案，並設定以下內容：
-TOGETHER_API_KEY=你的 TOGETHER API 金鑰
-SECRET_KEY=Flask 的 secret key
-SUPABASE_URL=你的 Supabase 專案網址
-SUPABASE_KEY=你的 Supabase 金鑰
-
 cd senior-project-main/llama_flask
 
 # 安裝依賴
